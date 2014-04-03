@@ -47,7 +47,7 @@ if (wakeup > goWork) {
 
 var customers;
     var customers = prompt("How old are you?", "ages"); 
-            console.log(customers + "");
+            console.log("I'm " + customers + " years old.");
 
     if (namE || job ) {
 
@@ -65,7 +65,7 @@ var customers;
             console.log("I didn't have any customers under the ages of 16.");
         }; 
    } else {
-    
+        
             console.log("I didnt have any customers over the age of 16.");
 };
 
