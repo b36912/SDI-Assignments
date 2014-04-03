@@ -54,7 +54,7 @@ var customers;
         var heads = prompt("How many customers did Eddie have today under the ages of 16?");
             console.log(heads);
             heads = parseInt(heads);
-            console.log(heads + "");
+            console.log(heads + " wanted mohawk styled hair cuts.");
        
         if (agesUp16 < agesOlder) {
           
