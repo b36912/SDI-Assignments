@@ -35,30 +35,40 @@ if (wakeup > goWork) {
         
     };
     
-
-var customers;
-    var customers = prompt("How old are you?", "ages"); 
-            console.log("I'm " + customers + " years old.");
-
-    if (namE || job ) {
-
-        var heads = prompt("How many customers did Eddie have today under the ages of 16?");
-            console.log(heads);
-            heads = parseInt(heads);
-            console.log(heads + " wanted mohawk styled hair cuts.");
-       
-        if (agesUp16 < agesOlder) {
-          
-            var cuts = prompt("How many customers did Eddie have today older than 16?")    
-            console.log("I made " + cuts * 20 + " dollars from customers older than 16.");
-       
-        } else {
-            console.log("I didn't have any customers under the ages of 16.");
-        }; 
-   } else {
-        
-            console.log("I didnt have any customers over the age of 16.");
+function blank() {
+    ()     
+   // statements
+}
 };
 
-            console.log("Today was a great day at work!");
+            
+function blank() {
+    ()     
+   // statements
+}
+};
+function blank() {
+    ()     
+   // statements
+}
+};
+function blank() {
+    ()     
+   // statements
+}
+};
 
+};
+//for loop nested
+function toPro(totalprofit) {
+    for(initialization; condition; increment) 
+{            
+   // statements
+}
+};
+function toPro(totalprofit) {
+    for(initialization; condition; increment) 
+{            
+   // statements
+}
+};
