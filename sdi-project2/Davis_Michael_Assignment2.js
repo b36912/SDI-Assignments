@@ -58,11 +58,12 @@ function traffic() {
 
 
 
-//Types of Haircuts
-var hairStyle = ;
-var shaveFace = ;
-var =;
-function hairCut() {
+//Haircuts
+var hairStyle = ["Fade", "Ceaser", "Hightop Fade", "Shape up"];
+var shaveFace = true;
+var question  = "How would you like your haircut?";
+var greet     = "Welcome to ";
+function hairCs() {
     
     console.log()     
    // statements
@@ -75,12 +76,6 @@ var youngerCusts =   5;
 var tips         = "5";
 function toPro(totalprofit) {
 
-    for(initialization; condition; increment) 
-{            
-   // statements
-}
-}
-function toPro(totalprofit) {
     for(initialization; condition; increment) 
 {            
    // statements
