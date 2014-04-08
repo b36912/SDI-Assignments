@@ -38,16 +38,10 @@ if (wakeup > goWork) {
 };
 
 
-function blank() {
-    ()     
-   // statements
-};
-
-
 //Traffic
-var =;
-var =;
-var =;
+var accident = ;
+var laneOpen = ;
+var minLate  = ;
 function traffic() {
     while() {     
          if() {
@@ -59,9 +53,14 @@ function traffic() {
     }
 };
 
+//return()
+
+
+
+
 //Types of Haircuts
-var =;
-var =;
+var hairStyle = ;
+var shaveFace = ;
 var =;
 function hairCut() {
     
@@ -71,10 +70,11 @@ function hairCut() {
 
 
 //Total Profit....for loop nested
-var =;
-var =;
-var =;
+var olderCusts   =  10;
+var youngerCusts =   5;
+var tips         = "5";
 function toPro(totalprofit) {
+
     for(initialization; condition; increment) 
 {            
    // statements
@@ -86,3 +86,11 @@ function toPro(totalprofit) {
    // statements
 }
 };
+
+
+//Main Code
+    //return()
+    //return()
+    //return()
+    //console.log()
+
