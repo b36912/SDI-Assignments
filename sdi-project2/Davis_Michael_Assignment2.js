@@ -44,11 +44,12 @@ var laneOpen = 1;
 var minLate  = 15;
 var traffic  = function(traff) {
     while(laneOpen < minuteslate) {     
-         if( <=  || != ) {
-             //statement
+         if(laneOpen < 4 && 2 ! minLate) {
+             
+             console.log("There's only " + laneOpen + " lane open on the highway!");
          
          }else{
-             //statement
+             console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
          }
     }
 };
