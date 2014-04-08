@@ -33,39 +33,53 @@ if (wakeup > goWork) {
         
             console.log("I'm staying in the house today.");
         
-    };
+    }
     
-function blank() {
-    ()     
-   // statements
-}
 };
 
-            
+
 function blank() {
     ()     
    // statements
-}
-};
-function blank() {
-    ()     
-   // statements
-}
-};
-function blank() {
-    ()     
-   // statements
-}
 };
 
+
+//Traffic
+var =;
+var =;
+var =;
+function traffic() {
+    while() {     
+         if() {
+             //statement
+         
+         }else{
+             //statement
+         }
+    }
 };
-//for loop nested
+
+//Types of Haircuts
+var =;
+var =;
+var =;
+function hairCut() {
+    
+    console.log()     
+   // statements
+};
+
+
+//Total Profit....for loop nested
+var =;
+var =;
+var =;
 function toPro(totalprofit) {
     for(initialization; condition; increment) 
 {            
    // statements
 }
-};
+}
 function toPro(totalprofit) {
     for(initialization; condition; increment) 
 {            
