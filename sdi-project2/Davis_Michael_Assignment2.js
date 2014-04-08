@@ -55,10 +55,6 @@ var traffic  = function(traff) {
 };
 
 
-
-
-
-
 //Haircuts
 var hairStyle = ["Fade", "Ceaser", "Hightop Fade", "Shape up"];
 var shaveFace = true;
