@@ -39,12 +39,12 @@ if (wakeup > goWork) {
 
 
 //Traffic
-var accident = ;
-var laneOpen = ;
-var minLate  = ;
-function traffic() {
-    while() {     
-         if() {
+var accident = ["car", "truck"];
+var laneOpen = 1;
+var minLate  = 15;
+var traffic  = function(traff) {
+    while(laneOpen < minuteslate) {     
+         if( <=  || != ) {
              //statement
          
          }else{
@@ -53,7 +53,7 @@ function traffic() {
     }
 };
 
-//return()
+
 
 
 
@@ -63,7 +63,7 @@ var hairStyle = ["Fade", "Ceaser", "Hightop Fade", "Shape up"];
 var shaveFace = true;
 var question  = "How would you like your haircut?";
 var greet     = "Welcome to ";
-function hairCs() {
+var hairCuts  = function() {
     
     console.log()     
    // statements
@@ -74,18 +74,17 @@ function hairCs() {
 var olderCusts   =  10;
 var youngerCusts =   5;
 var tips         = "5";
-function toPro(totalprofit) {
+var toPro = function(totalprofit) {
 
-    for(initialization; condition; increment) 
-{            
+    for(initialization; condition; increment) {            
    // statements
-}
+    }
 };
 
 
 //Main Code
-    //return()
-    //return()
-    //return()
+    //traffic()
+    //hairCuts()
+    //toPro()
     //console.log()
 
