@@ -60,9 +60,12 @@ var hairStyle = ["Fade", "Ceaser", "Hightop Fade", "Shape up"];
 var shaveFace = true;
 var question  = "How would you like your haircut?";
 var greet     = "Welcome to ";
-var hairCuts  = function() {
+var youCan    = "You can choose from a ";
+var hairCuts  = function("greetings") {
     
-    console.log()     
+                     console.log(greet + worksAt);
+                     console.log(question);
+                     console.log(youCan + hairstyle);
    // statements
 };
 
