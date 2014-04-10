@@ -2,7 +2,7 @@
 
 // Michael Davis
 // SDI 1403-02
-// Project 1
+// Project 2
 
 
 /*
@@ -19,15 +19,6 @@ var agesUp16  = 10;
 var agesOlder = 20;
 var work      = true;
 
-//Outputs
-console.log("Hi my name is " + namE + ".");
-console.log("I am a professional " + job + ".");
-console.log("I work at " + worksAt + ".");
-console.log(namE + " lives " + workDist + " from his work place.");
-console.log(namE + " usually works " + workDays + ".");
-console.log("My prices for children up to ages 16 are " + agesUp16 + " dollars.");
-console.log("My prices for ages 17 and older are " + agesOlder + " dollars.");
-console.log("It's " + work + "I really love my job.");
 
 
 var wakeup = true
@@ -43,30 +34,60 @@ if (wakeup > goWork) {
             console.log("I'm staying in the house today.");
         
     };
-    
 
-var customers;
-    var customers = prompt("How old are you?", "ages"); 
-            console.log("I'm " + customers + " years old.");
 
-    if (namE || job ) {
 
-        var heads = prompt("How many customers did Eddie have today under the ages of 16?");
-            console.log(heads);
-            heads = parseInt(heads);
-            console.log(heads + " wanted mohawk styled hair cuts.");
-       
-        if (agesUp16 < agesOlder) {
-          
-            var cuts = prompt("How many customers did Eddie have today older than 16?")    
-            console.log("I made " + cuts * 20 + " dollars from customers older than 16.");
-       
-        } else {
-            console.log("I didn't have any customers under the ages of 16.");
-        }; 
-   } else {
-        
-            console.log("I didnt have any customers over the age of 16.");
+
+//Traffic
+var accident = ["car", "truck"];
+var laneOpen = 1;
+var minLate  = 15;
+var traffic;
+var traffic  = function(traff) {
+    while(laneOpen < minLate) {     
+        if (laneOpen < 4 && 2 > minLate) {
+             
+             console.log("There's only " + laneOpen + " lane open on the highway!");
+         
+         }else{
+             console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
+         }
+    }
 };
 
-            console.log("Today was a great day at work!");
+
+//Haircuts
+var hairStyle = ["Fade", "Ceaser", "Hightop Fade", "Shape up"];
+var shaveFace = true;
+var question  = "How would you like your haircut?";
+var greet     = "Welcome to ";
+var youCan    = "You can choose from a ";
+var hairCuts;
+var hairCuts  = function (greetings) {
+    
+            console.log(greet + worksAt);
+            console.log(question);
+            console.log(youCan + hairstyle);
+   // statements
+};
+
+
+//Total Profit....for loop nested
+var olderCusts   =  10;
+var youngerCusts =   5;
+var tips         = "5";
+var countTime;
+var toPro;
+var toPro = function(totalprofit) {
+
+    for(var countTime = 1; countTime<= 6; countTime ++) {            
+            console.log("I made " + (olderCusts.countTime + 5) + " dollars.") ;
+    }
+};
+
+
+//Main Code
+    traffic();
+    hairCuts();
+    toPro();
+    console.log();
