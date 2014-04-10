@@ -33,18 +33,20 @@ if (wakeup > goWork) {
         
             console.log("I'm staying in the house today.");
         
-    }
-    
-};
+    };
+
+
 
 
 //Traffic
 var accident = ["car", "truck"];
 var laneOpen = 1;
 var minLate  = 15;
+var traffic;
 var traffic  = function(traff) {
-    while(laneOpen < minuteslate) {     
-         if(laneOpen < 4 && 2 ! minLate) {
+
+    while (laneOpen < minLate) {     
+        if (laneOpen < 4 && 2 > minLate) {
              
              console.log("There's only " + laneOpen + " lane open on the highway!");
          
@@ -61,11 +63,12 @@ var shaveFace = true;
 var question  = "How would you like your haircut?";
 var greet     = "Welcome to ";
 var youCan    = "You can choose from a ";
-var hairCuts  = function("greetings") {
+var hairCuts;
+var hairCuts  = function (greetings) {
     
-                     console.log(greet + worksAt);
-                     console.log(question);
-                     console.log(youCan + hairstyle);
+            console.log(greet + worksAt);
+            console.log(question);
+            console.log(youCan + hairstyle);
    // statements
 };
 
@@ -74,17 +77,18 @@ var hairCuts  = function("greetings") {
 var olderCusts   =  10;
 var youngerCusts =   5;
 var tips         = "5";
+var countTime;
+var toPro;
 var toPro = function(totalprofit) {
 
-    for(initialization; condition; increment) {            
-   // statements
+    for (var countTime = 1; countTime <= 6; countTime ++) {            
+            console.log("I made " + (olderCusts.countTime + 5) + " dollars.") ;
     }
 };
 
 
 //Main Code
-    //traffic()
-    //hairCuts()
-    //toPro()
-    //console.log()
-
+    traffic();
+    hairCuts();
+    toPro();
+    console.log();
