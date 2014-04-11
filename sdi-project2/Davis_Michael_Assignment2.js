@@ -45,13 +45,13 @@ var minLate  = 15;
 var traffic;
 var traffic  = function(traff) {
 
-    while (laneOpen < minLate) {     
-        if (laneOpen < 4 && 2 > minLate) {
+    while (laneOpen > minLate) {     
+        if (accident[0].length < accident[1].length) {
              
-             console.log("There's only " + laneOpen + " lane open on the highway!");
+            console.log("There's only " + laneOpen + " lane open on the highway!");
          
          }else{
-             console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
+             break; console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
          }
     }
 };
@@ -68,7 +68,7 @@ var hairCuts  = function (greetings) {
     
             console.log(greet + worksAt);
             console.log(question);
-            console.log(youCan + hairstyle);
+            console.log(youCan + hairStyle);
    // statements
 };
 
@@ -81,8 +81,8 @@ var countTime;
 var toPro;
 var toPro = function(totalprofit) {
 
-    for (var countTime = 1; countTime <= 6; countTime ++) {            
-            console.log("I made " + (olderCusts.countTime + 5) + " dollars.") ;
+    for (var countTime = 0; countTime <2; countTime ++) {            
+            console.log("I made " + (olderCusts * 5) + " dollars.") ;
     }
 };
 
@@ -91,4 +91,4 @@ var toPro = function(totalprofit) {
     traffic();
     hairCuts();
     toPro();
-    console.log();
+    console.log("Today I had a busy day!");
