@@ -51,7 +51,7 @@ var traffic  = function(traff) {
             console.log("There's only " + laneOpen + " lane open on the highway!");
          
          }else{
-             break; console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
+            console.log("There was a " + accident + " that was the cause of traffic, I'm glad they towed them quick!");
          }
     }
 };
@@ -74,15 +74,16 @@ var hairCuts  = function (greetings) {
 
 
 //Total Profit....for loop nested
-var olderCusts   =  10;
-var youngerCusts =   5;
+var olderCusts   =  20;
+var youngerCusts =  10;
 var tips         = "5";
 var countTime;
 var toPro;
 var toPro = function(totalprofit) {
 
-    for (var countTime = 0; countTime <2; countTime ++) {            
-            console.log("I made " + (olderCusts * 5) + " dollars.") ;
+    for (var countTime = 0; countTime < 1; countTime ++) {            
+            console.log("I made " + (olderCusts * 10) + " dollars from older customers .") ;
+            console.log("I made " + (youngerCusts * 5) + " dollars from younger customers .") ;
     }
 };
 
