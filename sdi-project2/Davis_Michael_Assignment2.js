@@ -25,7 +25,7 @@ var wakeup = true
 var goWork = false
 
 
-if (wakeup > goWork) {
+if (wakeup >! goWork) {
     
     var whatDay = prompt("What day is it of the week?", " Choose a day between Tuesday-Saturday")
             console.log(whatDay + ", looks like I have to be at " + worksAt +  " by 11AM.");
@@ -46,7 +46,7 @@ var traffic;
 var traffic  = function(traff) {
 
     while (laneOpen > minLate) {     
-        if (accident[0].length < accident[1].length) {
+        if (accident[0].length || accident[1].length) {
              
             console.log("There's only " + laneOpen + " lane open on the highway!");
          
@@ -76,7 +76,6 @@ var hairCuts  = function (greetings) {
 //Total Profit....for loop nested
 var olderCusts   =  20;
 var youngerCusts =  10;
-var tips         = "5";
 var countTime;
 var toPro;
 var toPro = function(totalprofit) {
