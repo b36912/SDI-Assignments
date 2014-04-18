@@ -108,5 +108,27 @@ var hairCuts  = function (haircut) {
    // statements
 };
 
+
+//Total Profit....for loop nested
+var olderCusts   =  20;
+var youngerCusts =  10;
+var countTime;
+var toPro = function(totalprofit) {
+    for (var styles in haircut.styles) {
+    
+    console.log("The haircut cost " + haircut.styles[styles].cost);
+    
+    }
+    for (var countTime = 0; countTime < 1; countTime ++) {
+            
+            console.log("I made " + (olderCusts * 10) + " dollars from older customers .") ;
+            console.log("I made " + (youngerCusts * 5) + " dollars from younger customers .") ;
+    }
 };
 
+
+//Main Code
+    traffic();   
+    hairCuts(haircut);
+    toPro();
+    console.log("Today I had a busy day!");
