@@ -160,3 +160,72 @@ Number("5");
 var number = parseInt("10");
 console.log(parseInt(number));
 console.log(" ");
+
+
+console.log("-Arrays")
+// Smallest value in array 
+// Project 3
+var SvalueNumArray = function (array,num) {
+        
+        array.sort(function(smal,lest){return smal-lest;});
+        if (num >= array[0] && num < array[array.length-1]) {
+                array.push(num);
+                array.sort(function(smal,lest){return smal-lest;});
+                var result = array[array.lastIndexOf(num) + 1];
+                return result;
+        } else {
+                return null;
+        };
+};
+var numberList = [0,1,3,5,100,134,187900];
+console.log(SvalueNumArray(numberList,0));
+// Largest value in array project 3
+// null if false
+var LvalueNumArray = function (array,num) {
+        array.sort(function(smal,lest){return smal-lest;});
+        if (num > array[0] && num <= array[array.length-1]) {
+                array.push(num);
+                array.sort(function(smal,lest){return smal-lest;});
+                var result = array[array.indexOf(num) - 1];
+                return result;
+        } else {
+                return null;
+        };
+};
+console.log(LvalueNumArray(numberList,5));
+
+
+
+// Add up and total only numbers
+// Project 3
+var ValueNumArray = function (array) {
+    var total = 0;
+    for (var i = 0, j = array.length; i < j; i++) {
+            if (array[i] / 1 === array[i]) {
+                    total += array[i];
+            };
+    };
+    return total;
+};
+var randomList = [4,"iPhone","macbook", 200,"27", "babygirl", 2014, 87];
+console.log(ValueNumArray(randomList));
+
+
+
+// Finds duplicate items in array Project 3
+var arrayItems = [{a:6},{a:1},{a:8},{a:2},{a:3},{a:5},{a:4},{a:7},{a:9}];
+var arrayList = ["Mike", "football", 300, 2700, 2700, "crazy",2700,"fly", "fly"];
+var duplicateArray = function (findItem,array) {
+    var holdIndex = [], index;
+    for (var i = 0, dup = array.length; i < dup; i++) {
+            if (array[i] === findItem) {
+                    index = array.indexOf(array[i],i);
+                    holdIndex.push(index);
+            };
+    };
+    return holdIndex;
+};
+
+
+console.log(arrayItems,"a");
+console.log(duplicateArray(2700,arrayList));
