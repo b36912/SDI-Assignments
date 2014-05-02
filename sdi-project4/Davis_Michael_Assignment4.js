@@ -130,3 +130,24 @@ console.log(fuzzyNumber(1,27,54));
 console.log(fuzzyNumber(54,1,27));
 
         
+
+// 2 dates 
+// Output [Days,Hours,Minutes,Seconds] 
+//Project 2
+var timeBtwDatesReturn;
+
+var timeBtwDates = function (date1,date2) {
+    var dates = [7,24,60,1000];
+    var difference = (date1 > date2) ? date1.getTime() - date2.getTime() : date1.getTime() - date2.getTime();
+        dates[0] = dates[1] / 24;
+        dates[1] = dates[2] / 60;
+        dates[2] = dates[3] / 60;
+        dates[3] = difference / 1000;
+        return dates;
+};
+var date1 = new Date(2014,4,26);
+var date2 = new Date(2014,4,19);
+var timeConversion = timeBtwDates(date1,date2);
+        console.log("Days difference : " + timeConversion[0] + ", hours are : " + timeConversion[1]);
+        
+
