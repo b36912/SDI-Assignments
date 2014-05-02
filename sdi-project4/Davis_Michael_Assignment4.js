@@ -103,3 +103,30 @@ var swapSeparator = function (oldSep,newSep) {
 console.log(swapSeparator("a,b,c","a/b/c"));
 console.log(" ");
 
+
+console.log("-Numbers");
+
+//numbers math function
+var productCost = 11.00;
+var grandCost = 11.75 * 2.00;
+var cost = function(pay) {
+    if(11+2) {
+            console.log ("$" + pay.toFixed(2));
+    }
+};
+cost(grandCost);
+
+
+//comparisons and operators, this is also for assignment 2
+var fuzzyNumber = function (num,comNumber,percent) {
+    var percentage = (num / comNumber) * 100;
+    if ((num >= comNumber && percentage >= percent) || (num > comNumber && percentage > percent)) {
+        return false;
+} else {
+        return true;
+};
+};
+console.log(fuzzyNumber(1,27,54));
+console.log(fuzzyNumber(54,1,27));
+
+        
