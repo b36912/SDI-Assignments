@@ -26,3 +26,25 @@ var verifyTelNum = function (num) {
 };       
 cellNumReturn = verifyTelNum("215-287-3163");
 
+
+
+//Verify Email address (true or false)
+var emailReturn;
+
+var checkeMail = function addres(email) {
+
+    var emailLength = email.length;
+   
+    for (var i = 0; i < emailLength; i++) {
+      
+        if (email <= "school") {
+            
+            console.log("The email address is false.");
+        
+        } else {
+            console.log("The email address is true.");
+        }
+    };
+       
+};      
+emailReturn = checkeMail("mdavisii@fullsail.edu");
