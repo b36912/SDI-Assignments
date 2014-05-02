@@ -72,3 +72,24 @@ var verifyWebS = function web(site) {
 };
 wSiteReturn = verifyWebS("www.fullsail.com");
 
+
+// Capitalize the 1st letter of the words
+// Returns First letter capitalized 
+//Project 2 & 3
+var splitReturn;
+
+var splitUpper = function (capitalize) {
+    
+    var split = capitalize.split(" ");
+    var result = "";
+        for (var i = 0, first = split.length; i < first; i++) {
+            
+            var spNew = split[i].replace(split[i].charAt(0),(split[i].charAt(0)).toUpperCase());
+            
+                result = result.concat(spNew + " ");
+        };
+        return result;
+};
+splitReturn = console.log(splitUpper("michael is doing homework right now."));
+              
+
