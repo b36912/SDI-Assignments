@@ -93,3 +93,13 @@ var splitUpper = function (capitalize) {
 splitReturn = console.log(splitUpper("michael is doing homework right now."));
               
 
+// Changes the separator to a new separator 
+//Project 2 & 3
+var swapSeparator = function (oldSep,newSep) {
+    var swapSep = ("a,b,c","/");
+        
+        return oldSep.replace(oldSep,newSep);
+    };
+console.log(swapSeparator("a,b,c","a/b/c"));
+console.log(" ");
+
