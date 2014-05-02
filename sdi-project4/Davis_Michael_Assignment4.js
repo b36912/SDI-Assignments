@@ -48,3 +48,27 @@ var checkeMail = function addres(email) {
        
 };      
 emailReturn = checkeMail("mdavisii@fullsail.edu");
+
+
+//Verify URL address (true or false)
+
+var wSiteReturn;
+
+var verifyWebS = function web(site) {
+
+    var wSiteLength = site.length;
+   
+    for (var i = 0; i < wSiteLength; i++) {
+      
+        if (site < "web") {
+            
+            console.log("The URL address is false.");
+        
+        } else {
+            console.log("The URL address is true.");
+        }
+    };
+            
+};
+wSiteReturn = verifyWebS("www.fullsail.com");
+
