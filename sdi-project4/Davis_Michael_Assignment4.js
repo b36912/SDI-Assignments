@@ -151,3 +151,12 @@ var timeConversion = timeBtwDates(date1,date2);
         console.log("Days difference : " + timeConversion[0] + ", hours are : " + timeConversion[1]);
         
 
+//I used parse to turn it from  string to a number
+var Number = function (num) {
+    console.log(num);
+};
+Number("5");
+
+var number = parseInt("10");
+console.log(parseInt(number));
+console.log(" ");
